@@ -25,7 +25,7 @@ module YARD
         :markdown => [
           {:lib => :redcarpet, :const => 'RedcarpetCompat'},
           {:lib => :rdiscount, :const => 'RDiscount'},
-          {:lib => :kramdown, :const => 'Kramdown::Document'},
+          {:lib => :kramdown, :const => 'YARD::Templates::Helpers::Markup::Kramdown'},
           {:lib => :bluecloth, :const => 'BlueCloth'},
           {:lib => :maruku, :const => 'Maruku'},
           {:lib => :'rpeg-markdown', :const => 'PEGMarkdown'},
